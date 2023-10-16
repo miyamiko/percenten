@@ -23,5 +23,7 @@ with st.form(key='encode_form',clear_on_submit=True):
 
 link = 'Excelなどで複数変換したいものがある場合など、ご相談ください。[Twitter](https://twitter.com/kikumel1)'
 st.markdown(link, unsafe_allow_html=True)
-st.write('\n\nアクセスカウンタ')
+st.write('\n\n')
+link = '[無料アクセスカウンター](https://www.free-counter.jp/)'
+st.markdown(link, unsafe_allow_html=True)
 st.markdown("![Alt Text](https://www.f-counter.net/j/62/1697431104/)")
