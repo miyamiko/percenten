@@ -1,6 +1,7 @@
 import streamlit as st
 import urllib
-
+import base64
+import streamlit.components.v1 as stc
 st.title('％に化けた日本語URLを戻します！')
 # 空白行の挿入
 st.write('\n\n')
@@ -22,3 +23,5 @@ with st.form(key='encode_form',clear_on_submit=True):
 
 link = 'Excelなどで複数変換したいものがある場合など、ご相談ください。[Twitter](https://twitter.com/kikumel1)'
 st.markdown(link, unsafe_allow_html=True)
+st.write('\n\nアクセスカウンタ')
+st.markdown("![Alt Text](https://www.f-counter.net/j/62/1697431104/)")
